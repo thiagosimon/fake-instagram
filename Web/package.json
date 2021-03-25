@@ -1,0 +1,71 @@
+{
+  "name": "fake-instagran-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-client": "^2.6.3",
+    "apollo-link-http": "^1.5.15",
+    "axios": "^0.19.0",
+    "graphql": "^14.4.2",
+    "graphql-code-generator": "^0.18.2",
+    "graphql-codegen-typescript-react-apollo-template": "^0.18.2",
+    "graphql-tag": "^2.10.1",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "socket.io-client": "^2.2.0",
+    "styled-components": "^4.3.1",
+    "typescript": "3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "gqlgen": "graphql-codegen --config codegen.yml"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.3.1",
+    "@graphql-codegen/introspection": "1.3.1",
+    "@graphql-codegen/typescript": "1.3.1",
+    "@graphql-codegen/typescript-operations": "^1.3.1",
+    "@graphql-codegen/typescript-react-apollo": "1.3.1",
+    "@types/axios": "^0.14.0",
+    "@types/graphql": "^14.2.2",
+    "@types/jest": "24.0.14",
+    "@types/node": "12.0.8",
+    "@types/react": "16.8.20",
+    "@types/react-dom": "16.8.4",
+    "@types/react-router-dom": "^4.3.4",
+    "@types/socket.io-client": "^1.4.32",
+    "@types/styled-components": "^4.1.16",
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0"
+  }
+}
